@@ -1,13 +1,16 @@
-<style> {
+<style> 
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
-}
+
 </style>
 
-<style>{
-    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
-}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
 </style>
 
+:root {
+    --primaryColor: #7c3aed; 
+}
+ 
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -33,3 +36,20 @@ h2 {
     margin: auto;
     padding-left: 1rem;
 }
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    --primaryColor: #7c3aed; 
+    color:var(--primaryColor);
+}
+.link-primary {
+    background-color:#7c3aed;
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary {
+    color:#7c3aed;
+    border-radius: 0.5rem;
+    border: 1px solid #7c3aed;
+}
+/* look into BEM naming convention */
