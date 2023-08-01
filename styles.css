@@ -50,23 +50,25 @@ h3 {
 
 .link {
     text-decoration: none;
+    border-color: #14b8a6;
     border-radius: 5rem;
-    border-color: black;
+    /* box-sizing: border-box;
+    margin-top: 1rem;
+    margin-bottom: 1rem; */
     padding: 0.5rem 1rem;
-    background-color: #14b8a6;
     color: white;
 }
 
 .link-primary {
     background-color: #14b8a6;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
     color: white;
 }
 
 .link-secondary {
-    color: white;
-    border-radius: 0.5rem;
-    border: 1px solid #14b8a6;
+    color: #14b8a6;
+    border-radius: 1rem;
+    border: 2px solid #14b8a6;
 }
 
 /* look into BEM naming convention for CSS */
@@ -94,12 +96,12 @@ h3 {
 
 .nav {
     background-color: #0f766e;
-    border-radius: 1rem;
-    block-size: 5rem;
+    block-size: 6rem;
     color: white;
 }
 
 .new-brand {
+    font-size: x-large;
     font-weight: bold;
     background-color: #0f766e;
     size: 5rem;
@@ -161,5 +163,6 @@ h3 {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    border-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
