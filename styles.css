@@ -1,18 +1,14 @@
-<style> 
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
 
-</style>
+</style><style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
 
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
-</style>
-
-:root {
-    --primaryColor: #14b8a6; 
+</style>:root {
+    --primaryColor: #14b8a6;
 }
 
 body {
     font-family: 'Oswald', sans-serif;
+    margin: auto;
 }
 
 hr {
@@ -22,28 +18,36 @@ hr {
 h1 {
     font-family: 'Oswald', sans-serif;
 }
+
 p {
     font-family: 'Lato', sans-serif;
 }
+
 small {
     font-family: 'Lato', sans-serif;
 }
+
 h2 {
     font-family: 'Lato', sans-serif;
 }
+
 h3 {
     font-size: large;
     margin: 2rem 0rem;
 }
+
 .container {
     padding-left: 1rem;
-    padding-right: 1rem;;
+    padding-right: 1rem;
+    ;
 }
+
 .container-center {
     max-width: 600px;
     margin: auto;
     padding-left: 1rem;
 }
+
 .link {
     text-decoration: none;
     border-radius: 5rem;
@@ -52,16 +56,19 @@ h3 {
     background-color: #14b8a6;
     color: white;
 }
+
 .link-primary {
-    background-color:#14b8a6;
+    background-color: #14b8a6;
     border-radius: 0.5rem;
     color: white;
 }
+
 .link-secondary {
-    color:white;
+    color: white;
     border-radius: 0.5rem;
     border: 1px solid #14b8a6;
 }
+
 /* look into BEM naming convention for CSS */
 
 /**  Lists **/
@@ -73,7 +80,7 @@ h3 {
     display: inline;
     background-color: #14b8a6;
     border-radius: 5rem;
-    color:white;
+    color: white;
     padding: 0.5rem 0.5rem;
     margin-left: 0.5rem;
 }
@@ -82,14 +89,16 @@ h3 {
     font-size: larger;
     margin: 2rem 0rem;
 }
+
 /* Navigation */
 
 .nav {
-    background-color:#0f766e ;
+    background-color: #0f766e;
     border-radius: 1rem;
     block-size: 5rem;
     color: white;
 }
+
 .new-brand {
     font-weight: bold;
     background-color: #0f766e;
@@ -98,6 +107,7 @@ h3 {
     margin: 0rem 2rem;
     color: white;
 }
+
 .nav.link {
     color: white;
 }
@@ -122,14 +132,34 @@ h3 {
     display: block;
     margin: auto;
 }
+
 .coder-heading {
     font-size: 1.5rem;
-    color:#404040 ;
+    color: #404040;
     padding-top: 1rem;
     text-align: center;
 }
+
 .heading-inverted {
     color: #bb79f5;
 }
 
 /** Sections **/
+.section {
+    padding: 2rem;
+}
+.sections h3 {
+    text-align: center;
+}
+.ow {
+    background-color: #e5e5e5;
+}
+
+/* footer */
+.footer {
+    background-color: #0f766e;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem;
+}
