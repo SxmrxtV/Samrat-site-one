@@ -1,9 +1,13 @@
-<style>
+<style> {
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
+}
 </style>
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+<style>{
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+}
 </style>
+
 body {
     font-family: 'Oswald', sans-serif;
 }
@@ -19,4 +23,13 @@ small {
 }
 h2 {
     font-family: 'Lato', sans-serif;
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;;
+}
+.container-center {
+    max-width: 600px;
+    margin: auto;
+    padding-left: 1rem;
 }
