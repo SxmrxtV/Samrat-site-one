@@ -143,7 +143,7 @@ h3 {
 }
 
 .heading-inverted {
-    color: #bb79f5;
+    color: #064e3b;
 }
 
 /** Sections **/
@@ -160,9 +160,14 @@ h3 {
 /* footer */
 .footer {
     background-color: #0f766e;
-    padding: 2rem 1rem;
     text-align: center;
     color: white;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.foot-icon {
+    max-width: 30px;
+    display: inline-block;
+    margin: 0.75rem;
 }
