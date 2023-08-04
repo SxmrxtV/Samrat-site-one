@@ -172,3 +172,9 @@ h3 {
     display: inline-block;
     margin: 0.75rem;
 }
+
+.footer-header {
+    font-size: x-large;
+    font-weight: 700;
+    color: beige;
+}
