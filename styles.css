@@ -14,20 +14,29 @@ body {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     padding-left: 1rem;
 }
+
+/* Links */
+
+/* Link Button primary */
+
 
 .link {
     text-decoration: none;
     border-color: #14b8a6;
     border-radius: 5rem;
-    /* box-sizing: border-box;
+    box-sizing: border-box;
     margin-top: 1rem;
-    margin-bottom: 1rem; */
+    margin-bottom: 1rem;
     padding: 0.5rem 1rem;
     color: white;
+}
+
+.link-centre {
+    text-align: center;
 }
 
 .link-primary {
@@ -42,10 +51,6 @@ body {
     border: 2px solid #14b8a6;
 }
 
-.link-redirect {
-    display: inline;
-    color: blueviolet;
-}
 /* look into BEM naming convention for CSS */
 
 /**  Lists **/
@@ -136,12 +141,15 @@ body {
 .sections h3 {
     text-align: center;
 }
-.ow {
-    background-color: #e5e5e5;
+
+.lg {
+    background-color: #99f6e4;
+    border-radius: 3rem;
     padding: 0.5rem;
 }
 /* footer */
 .footer {
+    width: auto;
     background-color: #0f766e;
     text-align: center;
     color: white;
@@ -165,6 +173,7 @@ body {
 
 .text-bold {
     font-weight: bold;
+    font-size: larger;
 }
 
 .text-centre {
@@ -180,6 +189,7 @@ hr {
 }
 
 h1 {
+    font-size: x-large;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -200,10 +210,14 @@ h3 {
     margin: 2rem 0rem;
 }
 
+.text-big {
+    font-size: 150%;
+}
+
 /* blog */
 
 .blog-text {
-    text-align: justify;
+    text-align: center; 
     padding: 2rem;
 }
 
