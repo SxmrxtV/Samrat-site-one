@@ -1,41 +1,12 @@
-<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');</style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');</style>
 
-</style><style>@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Oswald:wght@400;700&display=swap');
 
-</style>:root {
-    --primaryColor: #14b8a6;
-}
-
+/* Body */
 body {
     font-family: 'Oswald', sans-serif;
     margin: auto;
 }
-
-hr {
-    margin: 2rem 0rem;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-}
-
-p {
-    font-family: 'Lato', sans-serif;
-}
-
-small {
-    font-family: 'Lato', sans-serif;
-}
-
-h2 {
-    font-family: 'Lato', sans-serif;
-}
-
-h3 {
-    font-size: large;
-    margin: 2rem 0rem;
-}
-
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -202,6 +173,31 @@ h3 {
 
 .text-right {
     text-align: right;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+small {
+    font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: large;
+    margin: 2rem 0rem;
 }
 
 /* blog */
