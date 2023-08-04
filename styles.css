@@ -150,7 +150,6 @@ body {
 /* footer */
 .footer {
     padding-top: 1rem;
-    padding-bottom: 1.5rem;
     width: auto;
     background-color: #0f766e;
     text-align: center;
@@ -166,6 +165,7 @@ body {
 }
 
 .footer-header {
+    padding-bottom: 0.5rem;
     font-size: large;
     font-weight: 600;
     color: white;
