@@ -71,11 +71,21 @@ h3 {
     border: 2px solid #14b8a6;
 }
 
+.link-redirect {
+    display: inline;
+    color: blueviolet;
+}
 /* look into BEM naming convention for CSS */
 
 /**  Lists **/
 .list-non-bullet {
     list-style: none;
+}
+.list-numbered {
+    list-style: decimal;
+}
+.books {
+    margin: 5px;
 }
 
 .list-item-inline {
@@ -129,7 +139,7 @@ h3 {
     text-align: center;
 }
 
-.coder-img {
+.image {
     max-width: 350px;
     display: block;
     margin: auto;
@@ -149,12 +159,14 @@ h3 {
 /** Sections **/
 .section {
     padding: 2rem;
+    margin: 1rem;
 }
 .sections h3 {
     text-align: center;
 }
 .ow {
     background-color: #e5e5e5;
+    padding: 0.5rem;
 }
 /* footer */
 .footer {
@@ -176,4 +188,32 @@ h3 {
     font-size: large;
     font-weight: 600;
     color: white;
+}
+
+/* Typography */
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* blog */
+
+.blog-text {
+    text-align: justify;
+    padding: 2rem;
+}
+
+/* Images */
+
+.icon {
+    max-width: 30px;
+    display: inline-block;
 }
