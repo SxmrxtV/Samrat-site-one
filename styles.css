@@ -162,6 +162,7 @@ h3 {
     background-color: #0f766e;
     text-align: center;
     color: white;
+    block-size: auto;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
